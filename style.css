@@ -1,0 +1,69 @@
+body {
+  color: rgb(48, 48, 48);
+  font: 18px arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 20px;
+  background-color: rgb(233, 233, 233);
+  font: 20px, helvetica, sans-serif;
+}
+
+a {
+  color: green;
+}
+
+a:hover {
+  color: purple;
+}
+
+header {
+  border: 5px solid rgb(48, 48, 48);
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+main {
+  border: 5px solid rgb(48, 48, 48);
+  margin: 25px 0px;
+  padding: 20px;
+}
+
+footer {
+  border: 5px solid rgb(48, 48, 48);
+  margin: 25px 0px;
+  padding: 20px;
+}
+
+.blogpost-wrap {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 30px;
+  flex-basis: auto;
+  justify-items: center;
+}
+
+.blogpost {
+  width: auto;
+  border: 1px solid black;
+  margin: 10px 10px 0 0;
+}
+
+.blogpost h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+@media (max-width: 1024px) {
+  body {
+    background-color: rgb(243, 153, 255);
+    font-size: 22px;
+  }
+}
